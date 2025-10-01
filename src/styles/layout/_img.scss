@@ -1,13 +1,20 @@
 .home-img{
     width: 986px;
     height: 675px;
+    position: fixed;
     margin: 0;
     padding: 0;
 }
 
 .logo-jeu{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    margin-left: 60px;
+    margin-top: -80px;
+    padding: 0;
+    width: 500px;
+    height: 500px;
     z-index: 1;
+
+    //ajout de l'ombre => vu sur un forum
+    filter: drop-shadow(3px 5px 2px rgba(193, 75, 69, 0.3));
 }
