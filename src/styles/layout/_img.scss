@@ -1,4 +1,13 @@
 .home-img{
-    width: 936px;
+    width: 986px;
     height: 675px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-jeu{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
 }
