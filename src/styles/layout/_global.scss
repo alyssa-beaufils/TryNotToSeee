@@ -5,3 +5,13 @@ body{
     margin: 0;
     padding: 0;
 }
+
+body.home-body{
+    background-image: image-set(
+    url("../assets/images/Home_background.webp") 1x,
+    url("../assets/images/Home_background@2x.webp") 2x
+  );
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
