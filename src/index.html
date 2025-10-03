@@ -14,8 +14,6 @@
 
   <script src="scripts/app.js" defer></script>
 
-
-
   <head>
         <title>TryNotToSee</title>
         <meta charset="UTF-8">
@@ -35,7 +33,7 @@
 
         <!-- link -->
         <link rel="icon" type="image/x-icon" href="assets/images/logo/logo.svg">
-        <link rel="stylesheet" href="styles/app.scss">
+        <link rel="stylesheet" href="styles/app.css">
 
         <!-- script -->
         <!-- <script type="module" src="scripts/app.js"></script> -->
@@ -49,8 +47,8 @@
 <body class="home-body">
   <img class="logo-jeu" src="assets/images/logo-jeu.svg" alt="Logo du jeu TryNotToSee">
 
-  <form class="form-user-input">
-    <label class="label-user-input" for="user-input">Pseudo :</label>
+  <form class="form-user-input" aria-label="Choisis ton pseudo">
+    <label class="label-user-input" for="user-input">Pseudo</label>
     <input class="username-input" id="user-input" type="text" placeholder="Entrez votre pseudo">
     <button class="start-button" type="submit">Jouer</button>
   </form>
