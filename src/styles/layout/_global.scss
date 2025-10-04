@@ -1,17 +1,30 @@
 body{
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
   margin: 0;
   padding: 0;
 }
 
+.scene {
+  width: 986px;
+  height: 675px;
+}
+
 .home-body{
   background-image: image-set(
-  url("../assets/images/Home_background.webp") 1x,
-  url("../assets/images/Home_background@2x.webp") 2x
+  url("../../assets/images/Home_background.webp") 1x,
+  url("../../assets/images/Home_background@2x.webp") 2x
 );
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.niveau01 {
+  background-image: image-set(
+    url("../../assets/images/Lvl01_background.webp") 1x,
+    url("../../assets/images/Lvl01_background@2x.webp") 2x
+  );
   background-size: cover;
   background-repeat: no-repeat;
-
 }
+

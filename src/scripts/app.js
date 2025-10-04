@@ -3,8 +3,8 @@ import Phaser from "phaser";
 
 const config = {
     type: Phaser.AUTO,
-    width: /* 800, */ window.innerWidth, // pour avoir full screen
-    height: /* 600, */  window.innerHeight, //pour avoir full screen
+    width: 986, // window.innerWidth, // pour avoir full screen
+    height: 675, // window.innerHeight, //pour avoir full screen
     parent: 'niveau02',
     scene: {
         preload,
